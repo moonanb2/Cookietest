@@ -1,0 +1,25 @@
+{
+  "record_id": "your_record_id_value",
+  "schema_version": "1.0",
+  "pii_principal_id": "your_pii_principal_id_value",
+  "consentRequest": {
+    "requestId": "123456",
+    "requestDate": "2024-02-16T12:30:00",
+    "requestingParty": {
+      "name": "Consent+",
+      "contact": "ConsentPlus@gmail.com"
+    },
+    "user": {
+      "userId": "789",
+      "username": "john_doe",
+      "email": "john.doe@example.com"
+    },
+    "permissionsRequested": [
+      "read_profile",
+      "send_notifications"
+    ],
+    "purpose": "6.3.4.5 purpose: Access user profile information and send notifications.",
+    "expirationDate": "2024-03-01T00:00:00",
+    "status": "pending"
+  }
+}
